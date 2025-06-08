@@ -26,6 +26,7 @@ def __getitem__(self, idx):
 Improvement:
 * All texts are preprocessed and encoded only once in the constructor (__init__)
 * self.encoded_data is stored, and __getitem__ only accesses this list.
+  
 📌 Result: Increases training efficiency (faster, less CPU).
 
 
