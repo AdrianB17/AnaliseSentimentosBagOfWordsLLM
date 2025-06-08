@@ -59,10 +59,13 @@ Improvement:
 ## 3. Mejorar LR (tasa de aprendizaje) para lograr mejor precisión en el conjunto de prueba.
 Tests were conducted with different values of the learning rate while keeping the other parameters constant (SGD optimization, number of epochs, batch size, loss function). 
 The learning rate was selected that allowed for the best accuracy on the validation set (test), without causing instability in the loss or loss of convergence. 
+
 For LR= 0.01: 
+
 ![dos ceros](https://github.com/user-attachments/assets/a0764d08-be3f-42a0-9a88-5e2b09d3ee85)
 
 For LR= 0.001:
+
 ![image](https://github.com/user-attachments/assets/355d6301-f184-41e0-930a-16a9e17ae466)
 
 
